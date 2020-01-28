@@ -9,14 +9,14 @@
     "nan": "^2.14.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "prettier": "1.19.1"
   },
   "scripts": {
-    "test": "standard"
+    "test": "prettier --check \"./*.js\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/watson/rtl-sdr.git"
+    "url": "git+https://github.com/IncognitoJam/rtl-sdr.git"
   },
   "keywords": [
     "rtl-sdr",
@@ -28,11 +28,15 @@
     "antenna"
   ],
   "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
+  "contributors": [
+    "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
+    "Cameron Clough <cameronjclough@gmail.com> (https://github.com/IncognitoJam)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watson/rtl-sdr/issues"
+    "url": "https://github.com/IncognitoJam/rtl-sdr/issues"
   },
-  "homepage": "https://github.com/watson/rtl-sdr#readme",
+  "homepage": "https://github.com/IncognitoJam/rtl-sdr#readme",
   "coordinates": [
     55.777676,
     12.590184
