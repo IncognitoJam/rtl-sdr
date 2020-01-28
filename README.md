@@ -31,8 +31,6 @@ apt install librtlsdr-dev
 ## Installation
 
 ```
-yarn add rtl-sdr
-# OR
 npm install rtl-sdr
 ```
 
