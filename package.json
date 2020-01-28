@@ -12,7 +12,7 @@
     "prettier": "1.19.1"
   },
   "scripts": {
-    "test": "prettier --check \"./*.js\""
+    "test": "prettier --check \"./{index,example}.js\""
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,9 @@
     "radio",
     "antenna"
   ],
-  "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
   "contributors": [
-    "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
-    "Cameron Clough <cameronjclough@gmail.com> (https://github.com/IncognitoJam)"
+    "Cameron Clough <cameronjclough@gmail.com> (https://github.com/IncognitoJam)",
+    "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)"
   ],
   "license": "MIT",
   "bugs": {

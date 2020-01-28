@@ -3,6 +3,10 @@
 A low level binding to the [librtlsdr](https://github.com/steve-m/librtlsdr)
 library for Node.js.
 
+This package was originally created by
+[Thomas Watson](https://github.com/watson/rtl-sdr) but fell behind with
+maintenance.
+
 [![Build status](https://travis-ci.com/IncognitoJam/rtl-sdr.svg?branch=master)](https://travis-ci.com/IncognitoJam/rtl-sdr)
 
 ## Prerequisites
