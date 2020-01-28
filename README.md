@@ -1,55 +1,55 @@
 # rtl-sdr
 
-A low level binding to the
-[librtlsdr](https://github.com/steve-m/librtlsdr) library for Node.js.
+A low level binding to the [librtlsdr](https://github.com/steve-m/librtlsdr)
+library for Node.js.
 
-[![Build status](https://travis-ci.org/watson/rtl-sdr.svg?branch=master)](https://travis-ci.org/watson/rtl-sdr)
+[![Build status](https://travis-ci.com/IncognitoJam/rtl-sdr.svg?branch=master)](https://travis-ci.com/IncognitoJam/rtl-sdr)
 
 ## Prerequisites
 
 This module requires that you have
-[librtlsdr](https://github.com/steve-m/librtlsdr) installed on your
-system. In turn librtlsdr requires [libusb](http://libusb.info/).
+[librtlsdr](https://github.com/steve-m/librtlsdr) installed on your system. In
+turn librtlsdr requires [libusb](http://libusb.info/).
 
-You can install librtlsdr with most package managers which will ensure
-you have the right dependencies.
+You can install librtlsdr with most package managers which will ensure you have
+the right dependencies.
 
 Homebrew (macOS):
-
 ```
 brew install librtlsdr
 ```
 
 Debian based Linux distros:
-
 ```
-apt-get install librtlsdr-dev
+apt install librtlsdr-dev
 ```
 
 ## Installation
 
 ```
-npm install rtl-sdr --save
+yarn add rtl-sdr
+# OR
+npm install rtl-sdr
 ```
 
 ## Usage
 
 ```js
-const rtlsdr = require('rtl-sdr')
+const rtlsdr = require("rtl-sdr");
 
 // Get number of connected RTLSDR devices
-const deviceCount = rtlsdr.get_device_count()
+const deviceCount = rtlsdr.get_device_count();
 
 if (!deviceCount) {
-  console.log('No supported RTLSDR devices found')
-  process.exit(1)
+  console.log("No supported RTLSDR devices found");
+  process.exit(1);
 }
 
-console.log('Found %d device(s):', deviceCount)
+console.log('Found %d device(s):', deviceCount);
 ```
 
 For a complete running example, see
-[example.js](https://github.com/watson/rtl-sdr/tree/master/example.js).
+[example.js](https://github.com/IncognitoJam/rtl-sdr/tree/master/example.js).
 
 ## API
 
